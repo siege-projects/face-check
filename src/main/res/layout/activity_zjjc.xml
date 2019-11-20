@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/ed_cpid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入车票编号" />
+
+
+            <ImageView
+                android:id="@+id/img_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp" />
+
+            <Button
+                android:id="@+id/btn_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="人脸" />
+
+            <ImageView
+                android:id="@+id/img_sfz"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp" />
+
+            <Button
+                android:id="@+id/btn_sfz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="身份证" />
+
+            <TextView
+                android:id="@+id/tvJcjd"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/btn_jy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="检测" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
